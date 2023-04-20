@@ -9,10 +9,20 @@
 
 -   #### How to use
 
-        $data =  array(
-            'final_name.mp3', 
-            '123456', 
-            'final_name.whatever'
-        );
-        
-        AESencrypt($data[0], $data[1], $data[2]);
+        - Encryption
+            $data =  array(
+                'final_name.mp3', 
+                '123456', 
+                'final_name.whatever'
+            );
+            
+            AESencrypt($data[0], $data[1], $data[2]);
+
+        - Decryption
+            $decrypted =  array(
+                'final_name.whatever', 
+                '123456', 
+                'final_name.mp3'
+            );
+            
+            AESdecrypt($decrypted[0], $decrypted[1], $decrypted[2]);
