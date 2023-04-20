@@ -4,15 +4,15 @@
 -   #### Manual Use
     - [ https://www.php.net/manual/en/function.openssl-encrypt.php ] Openssl PHP.NET
     - [ https://www.php.net/manual/en/function.openssl-get-cipher-methods.php ] Cyper PHP.NET
+    - [ Google search ].
 
 
     ##### How to use
 
-    --   $data =  array(
+        $data =  array(
             'final_name.mp3', 
             '123456', 
             'final_name.whatever'
-            
         );
         
         AESencrypt($[0], $[1], $[2]);

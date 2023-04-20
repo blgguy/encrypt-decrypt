@@ -43,6 +43,8 @@ class ENCDECRYPT {
     }
 
     
+    // AES DECRYPT METHOD
+
     public function AESdecrypt($source, $key, $dest){
 
         $key = substr(sha1($key, true), 0, 16);
