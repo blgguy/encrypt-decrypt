@@ -6,4 +6,9 @@
 * @ 
 */
 
+class Encrypt extends AnotherClass implements Interface
+{
+    
+}
+
 ?>
