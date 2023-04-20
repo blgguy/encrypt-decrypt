@@ -9,7 +9,7 @@
 
 -   #### How to use
 
-        - Encryption
+        //- Encryption
             $data =  array(
                 'final_name.mp3', 
                 '123456', 
@@ -18,7 +18,7 @@
             
             AESencrypt($data[0], $data[1], $data[2]);
 
-        - Decryption
+        //- Decryption
             $decrypted =  array(
                 'final_name.whatever', 
                 '123456', 
