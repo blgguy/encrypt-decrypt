@@ -15,4 +15,4 @@
             'final_name.whatever'
         );
         
-        AESencrypt($[0], $[1], $[2]);
+        AESencrypt($data[0], $data[1], $data[2]);
